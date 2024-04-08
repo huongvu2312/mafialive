@@ -1,0 +1,27 @@
+- setupThreadReply() in src/XF/Pub/Controller/Thread.php
+- vote() in src/XF/ControllerPlugin/Editor.php
+
+template: 
+- quick_reply_macros: done
+- thread_view: done
+- post_macros (.actionBar-action--reply): done
+- extra.less: done
+- vote_history: done
+- post_amount: done
+- clone_list: done
+js: add jquery
+
+{{ dump(vars()) }}
+
+database: xf_users_node, xf_vote
+
+Edit file:
+post_macros
+vote_history
+post_amount
+clone_list
+
+Task to do:
+- Cronjob: auto close forum after 12 PM
+
+

@@ -1,0 +1,55 @@
+[03-Jan-2021 23:11:41 UTC] PHP Fatal error:  Uncaught XF\Db\Exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php:160
+Stack trace:
+#0 /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php(28): XF\Db\Mysqli\Adapter->makeConnection(Array)
+#1 /home/mafialiv1/public_html/src/XF/Db/AbstractAdapter.php(60): XF\Db\Mysqli\Adapter->getConnection()
+#2 /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php(113): XF\Db\AbstractAdapter->connect()
+#3 /home/mafialiv1/public_html/src/XF/Db/AbstractAdapter.php(467): XF\Db\Mysqli\Adapter->escapeString('options')
+#4 /home/mafialiv1/public_html/src/XF/Db/AbstractAdapter.php(445): XF\Db\AbstractAdapter->quote('options')
+#5 /home/mafialiv1/public_html/src/XF/DataRegistry.php(138): XF\Db\AbstractAdapter->quote(Array)
+#6 /home/mafialiv1/public_html/src/XF/DataRegistry.php(83): XF\DataRegistry->readFromDb(Array, Array)
+#7 /home/mafialiv1/public_html/src/XF/DataRegistry.php(226): XF\DataRegistry->get(Array)
+#8 /home/mafialiv1/public_html/src/XF/ in /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php on line 160
+[03-Jan-2021 23:14:42 UTC] PHP Fatal error:  Uncaught XF\Db\Exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php:160
+Stack trace:
+#0 /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php(28): XF\Db\Mysqli\Adapter->makeConnection(Array)
+#1 /home/mafialiv1/public_html/src/XF/Db/AbstractAdapter.php(60): XF\Db\Mysqli\Adapter->getConnection()
+#2 /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php(113): XF\Db\AbstractAdapter->connect()
+#3 /home/mafialiv1/public_html/src/XF/Db/AbstractAdapter.php(467): XF\Db\Mysqli\Adapter->escapeString('options')
+#4 /home/mafialiv1/public_html/src/XF/Db/AbstractAdapter.php(445): XF\Db\AbstractAdapter->quote('options')
+#5 /home/mafialiv1/public_html/src/XF/DataRegistry.php(138): XF\Db\AbstractAdapter->quote(Array)
+#6 /home/mafialiv1/public_html/src/XF/DataRegistry.php(83): XF\DataRegistry->readFromDb(Array, Array)
+#7 /home/mafialiv1/public_html/src/XF/DataRegistry.php(226): XF\DataRegistry->get(Array)
+#8 /home/mafialiv1/public_html/src/XF/ in /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php on line 160
+[03-Jan-2021 23:20:58 UTC] PHP Fatal error:  Uncaught XF\Db\Exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php:160
+Stack trace:
+#0 /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php(28): XF\Db\Mysqli\Adapter->makeConnection(Array)
+#1 /home/mafialiv1/public_html/src/XF/Db/AbstractAdapter.php(60): XF\Db\Mysqli\Adapter->getConnection()
+#2 /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php(113): XF\Db\AbstractAdapter->connect()
+#3 /home/mafialiv1/public_html/src/XF/Db/AbstractAdapter.php(467): XF\Db\Mysqli\Adapter->escapeString('options')
+#4 /home/mafialiv1/public_html/src/XF/Db/AbstractAdapter.php(445): XF\Db\AbstractAdapter->quote('options')
+#5 /home/mafialiv1/public_html/src/XF/DataRegistry.php(138): XF\Db\AbstractAdapter->quote(Array)
+#6 /home/mafialiv1/public_html/src/XF/DataRegistry.php(83): XF\DataRegistry->readFromDb(Array, Array)
+#7 /home/mafialiv1/public_html/src/XF/DataRegistry.php(226): XF\DataRegistry->get(Array)
+#8 /home/mafialiv1/public_html/src/XF/ in /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php on line 160
+[03-Jan-2021 23:21:09 UTC] PHP Fatal error:  Uncaught XF\Db\Exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php:160
+Stack trace:
+#0 /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php(28): XF\Db\Mysqli\Adapter->makeConnection(Array)
+#1 /home/mafialiv1/public_html/src/XF/Db/AbstractAdapter.php(60): XF\Db\Mysqli\Adapter->getConnection()
+#2 /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php(113): XF\Db\AbstractAdapter->connect()
+#3 /home/mafialiv1/public_html/src/XF/Db/AbstractAdapter.php(467): XF\Db\Mysqli\Adapter->escapeString('options')
+#4 /home/mafialiv1/public_html/src/XF/Db/AbstractAdapter.php(445): XF\Db\AbstractAdapter->quote('options')
+#5 /home/mafialiv1/public_html/src/XF/DataRegistry.php(138): XF\Db\AbstractAdapter->quote(Array)
+#6 /home/mafialiv1/public_html/src/XF/DataRegistry.php(83): XF\DataRegistry->readFromDb(Array, Array)
+#7 /home/mafialiv1/public_html/src/XF/DataRegistry.php(226): XF\DataRegistry->get(Array)
+#8 /home/mafialiv1/public_html/src/XF/ in /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php on line 160
+[03-Jan-2021 23:23:59 UTC] PHP Fatal error:  Uncaught XF\Db\Exception: Access denied for user ''@'localhost' (using password: NO) in /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php:160
+Stack trace:
+#0 /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php(28): XF\Db\Mysqli\Adapter->makeConnection(Array)
+#1 /home/mafialiv1/public_html/src/XF/Db/AbstractAdapter.php(60): XF\Db\Mysqli\Adapter->getConnection()
+#2 /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php(113): XF\Db\AbstractAdapter->connect()
+#3 /home/mafialiv1/public_html/src/XF/Db/AbstractAdapter.php(467): XF\Db\Mysqli\Adapter->escapeString('options')
+#4 /home/mafialiv1/public_html/src/XF/Db/AbstractAdapter.php(445): XF\Db\AbstractAdapter->quote('options')
+#5 /home/mafialiv1/public_html/src/XF/DataRegistry.php(138): XF\Db\AbstractAdapter->quote(Array)
+#6 /home/mafialiv1/public_html/src/XF/DataRegistry.php(83): XF\DataRegistry->readFromDb(Array, Array)
+#7 /home/mafialiv1/public_html/src/XF/DataRegistry.php(226): XF\DataRegistry->get(Array)
+#8 /home/mafialiv1/public_html/src/XF/App. in /home/mafialiv1/public_html/src/XF/Db/Mysqli/Adapter.php on line 160
