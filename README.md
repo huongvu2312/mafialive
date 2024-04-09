@@ -35,6 +35,15 @@ DocumentRoot "D:/Programming/ProgrammierungProjekt/mafialive/public_html"
 ```
 4. Click "Start" cho Apache và MySQL
 5. Vào http://localhost với bất kì browser nào để mở trang web.
+6. Vào http://localhost/phpmyadmin/ để bỏ database vào server. Từ trang này, tạo 1 database mới với tên `mafialiv_forum` và Collaton `utf8mb4_general_ci`.
+
+Trong file `mafialiv_forum_database.zip` là toàn bộ dữ liệu của các kì game. Unzip folder này sẽ được một file sql.
+
+Sau khi có file sql, quay lại trang PHPMyAdmin, chọn database vừa tạo và ấn `Import`. Chọn `Browse` và chọn file sql bạn vừa unzip rồi ấn `Go`.
+
+Lưu ý: file rất nặng nên có thể sẽ dừng tạm thời trong lúc tải lên server. Khi có thông báo đỏ, xin hãy tải đúng file đó một lần nữa.
+
+Khi có thông báo đỏ lần 2 liên quan đến lỗi NULL, có thể bỏ qua thông báo đó và tắt thẻ tab, vì khi đó data đã được tải xong.
 
 ## Một số lỗi thường gặp
 
